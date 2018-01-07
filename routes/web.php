@@ -75,7 +75,6 @@ Route::post('tasks', 'TasksController@store');
 
 //edytowanie tasku
 //Route::get('/tasks/edit/{taskid}','TasksController@edit');
-
 Route::get('/tasks/edit/{taskid}','TasksController@edit')->name('task.edit');
 
 //dla update - ale dlaczego takie kombinacje put

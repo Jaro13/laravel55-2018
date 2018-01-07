@@ -17,6 +17,8 @@
         {{method_field('put')}}  
 
         <legend>Editing {{$task->title}}</legend>
+ 
+        <br>
 
       
           
@@ -27,9 +29,10 @@
 
 
           <div class="form-group">
-              <label for="description">Description:</label>
-              <textarea name="description" type="text" class="form-control" id="Input field" value="{{$task->description}}"></textarea>
-            </div>
+            <label for="description">Description:</label>
+            <textarea name="description" type="text" class="form-control" id="" value=>"{{$task->description}}"</textarea>
+            
+          </div>
 
           <button type="submit" class="btn btn-primary">Submit</button>
 
