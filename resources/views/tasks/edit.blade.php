@@ -30,7 +30,7 @@
 
           <div class="form-group">
             <label for="description">Description:</label>
-            <textarea name="description" type="text" class="form-control" id="" value=>"{{$task->description}}"</textarea>
+            <textarea name="description" type="text" class="form-control" id="" value=>{{$task->description}}</textarea>
             
           </div>
 

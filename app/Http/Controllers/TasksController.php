@@ -85,6 +85,11 @@ class TasksController extends Controller
         return view ('tasks.edit', compact('task'));
 
 
+        //LARAVEL TEXT AREA
+        //https://laracasts.com/discuss/channels/general-discussion/laravel-old-input-messing-with-bootstrap-textarea?page=0
+
+
+
     }
 
     public function update(Request $request, $taskId){
